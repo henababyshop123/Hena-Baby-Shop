@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hela-Baby Shop</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+     <link href="asset/img/toko.jpeg" rel="icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fcedf6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            margin: 20px auto;
+            margin-top: 20px;
+            align-items: center; /* Sentralisasi item secara horizontal */
+            height: auto;
+        }
+
+        .profile-img {
+            width: 25vw; /* Lebar 20% dari lebar viewport */
+            height: 25vw; /* Tinggi mengikuti lebar */
+            max-width: 200px; /* Ukuran maksimum */
+            max-height: 200px;;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto; /* Sentralisasi horizontal */
+            display: block; /* Pastikan gambar menjadi elemen blok */
+            margin-bottom: 3px;
+        }
+
+        .location {
+         display: flex; /* Gunakan flexbox untuk penyelarasan */
+         align-items: center; /* Selaraskan secara vertikal */
+         justify-content: center; /* Selaraskan secara horizontal */
+         color: #555; /* Warna teks */
+         font-size: 16px; /* Ukuran teks */
+         margin-bottom: 20px;
+        }
+
+        .location-icon {
+         width: 20px; /* Lebar ikon */
+         height: 22px; /* Tinggi ikon */
+         margin-right: 8px; /* Jarak antara ikon dan teks */
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .location {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #555;
+            font-size: 18px;
+        }
+
+        /* Kontainer utama */
+.content-container {
+    background-color: #fde6f5; /* Warna latar belakang */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Judul */
+.content-container h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Item konten dengan link */
+.content-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff; /* Warna latar belakang konten */
+    border: 2px solid #000; /* Garis tepi */
+    border-radius: 20px; /* Membulatkan sudut */
+    padding: 10px 20px;
+    margin: 10px auto; /* Jarak antar item */
+    width: 80%; /* Lebar setiap item */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    text-decoration: none; /* Hilangkan garis bawah pada link */
+    color: #000; /* Warna teks */
+    transition: transform 0.2s ease; /* Animasi saat hover */
+    
+}
+
+.content-item:hover {
+    transform: scale(1.05); /* Efek memperbesar saat hover */
+}
+
+/* Ikon dalam item */
+.content-item img {
+    width: 40px; /* Ukuran ikon */
+    height: 40px;
+    margin-right: 5px; /* Jarak antara ikon dan teks */
+    flex-shrink: 0;
+}
+
+/* Teks dalam item */
+.content-item p {
+    font-size: 18px;
+    margin: 0;
+    color: #000;
+    text-align: center; /* Pusatkan teks hanya secara horizontal */
+    flex-grow: 1;
+}
+
+        .icons {
+            display: flex;
+            gap: 20px; /* Jarak antar ikon */
+        }
+
+        .icons {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+        }
+
+        .icons img {
+            width: 30px; /* Ukuran ikon */
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="asset/img/toko.jpeg" alt="Profile Picture" class="profile-img">
+        <div class="name">Deny Latifah</div>
+        <div class="location">
+            <img src="asset/img/logo-lokasi.png" alt="Location Icon" class="location-icon">
+            Panyabungan
+        </div>
+            <div class="icons">
+                <a href="https://s.shopee.co.id/3LAI2FKYUu" target="_blank">
+                    <img src="https://img.icons8.com/material-outlined/50/000000/shopee.png" alt="Shopee">
+                </a>                
+                <a href="https://www.tiktok.com/@ldr523km?_t=8s2BKgcKngN&_r=1" target="_blank">
+                    <img src="https://img.icons8.com/material-outlined/50/000000/tiktok.png" alt="TikTok">
+                </a>
+                <a href="https://www.instagram.com/helababyshop/profilecard/?igsh=MXhlNXZoNjZpbnBudA==" target="_blank">
+                    <img src="https://img.icons8.com/material-outlined/50/000000/instagram-new.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/share/15bzVSnWY9/" target="_blank">
+                    <img src="https://img.icons8.com/material-outlined/50/000000/facebook.png" alt="Facebook">
+                </a>
+            </div>
+
+        <div class="content-container">
+            <h1>Hela Baby Shop</h1>
+            <a href="https://www.tiktok.com/@ldr523km?_t=8s2BKgcKngN&_r=1" target="_blank" class="content-item">
+                <img src="asset/img/tiktok.jpg" alt="TikTok">
+                <p>Tiktok</p>
+            </a>
+            <a href="https://s.shopee.co.id/3LAI2FKYUu" target="_blank" class="content-item">
+                <img src="asset/img/shopee.png" alt="Shopee">
+                <p>Shopee</p>
+            </a>
+            <a href="https://www.instagram.com/helababyshop/profilecard/?igsh=MXhlNXZoNjZpbnBudA==" target="_blank" class="content-item">
+                <img src="asset/img/instagram.jpg" alt="Instagram">
+                <p>Instagram</p>
+            </a>
+            <a href="https://www.facebook.com/share/15bzVSnWY9/" target="_blank" class="content-item" >
+                <img src="asset/img/facebook-icon.png" alt="Facebook">
+                <p>Facebook</p>
+            </a>
+            <a href="https://wa.me/qr/PMVOH35NHNSDK1" target="_blank" class="content-item">
+                <img src="asset/img/WhatsApp.jpg" alt="WhatsApp">
+                <p>Admin 1</p>
+            </a>
+            <a href="https://wa.me/message/B3WDPGTTIR2QA1" target="_blank" class="content-item">
+                <img src="asset/img/WhatsApp.jpg" alt="WhatsApp">
+                <p>Admin 2</p>
+            </a>
+        </div>
+        
+    </div>
+</body>
+</html>
